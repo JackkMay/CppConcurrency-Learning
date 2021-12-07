@@ -2,10 +2,10 @@
 ## What is concurrency?
 At the simplest and most basic level, concurrency is about two or more separated activities happened at the same time. 
 Concurrency in computer systems:
-Task switching:Computers have only one processors can only perform one task at a time, but it can switch between tasks many times per second. By doing a bit of one task and then a bit of another and so on, it appears that the tasks are happening concurrently.
+**Task switching**:Computers have only one processors can only perform one task at a time, but it can switch between tasks many times per second. By doing a bit of one task and then a bit of another and so on, it appears that the tasks are happening concurrently.
 Hardware concurrency: multi-core processors are capable of genuinely running more than one task in parallel. 
 
-
+<font color=Blue> this is a<font>
 ## Approaches to Concurrency:
 
 (Concurrency with multiple processes), Downsides one: The communication between these processes is often either complicated to set up or slow, or both, because operating systems typically provide a lot of protection between processes to avoid one process accidentally modifying data belonging to another process.
